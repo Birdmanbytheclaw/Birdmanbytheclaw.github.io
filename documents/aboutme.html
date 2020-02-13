@@ -6,7 +6,7 @@
       <meta name= "description" content=" A couple things to learn
        meta name ="keywords content="Parker Flynn Vogg">
       <meta name="author" content="Parker Flynn">
-      <link href= "Styles.css" type="text/css" rel="stylesheet">
+      <link href= "stylesheets/Styles.css" type="text/css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
       <div id="Home" class="tabcontent">
@@ -15,7 +15,6 @@
       </div>
       
       <div id="About Me" class="tabcontent">
-        
         <h1>About Me</h1>
         <p>A sense of who I am.</p>
       </div>
@@ -31,11 +30,11 @@
         <p>A few of my GitHub repositories.</p>
       </div>
       
-      <button href="aboutme.html" class="tablink" onclick="openCity('Home', this, 'red')" id="defaultOpen">Home</button>
-      <button class="tablink" onclick="openCity('About Me', this, 'green')">About Me</button>
-      <button class="tablink" onclick="openCity('Contact', this, 'blue')">Contact</button>
-      <button class="tablink" onclick="openCity('Projects', this, 'orange')">projects</button>
-
+      <a href="index.html"><button class="tablink" onclick="openCity('Home', this, 'red')">Home</button></a>
+      <a href="aboutme.html"><button class="tablink" onclick="openCity('About Me', this, 'green')" id="defaultOpen">About Me</button></a>
+      <a href="contact.html"><button class="tablink" onclick="openCity('Contact', this, 'blue')">Contact</button></a>
+      <a href="Projects.html"><button class="tablink" onclick="openCity('Projects', this, 'orange')">Projects</button></a>
+</head>
       <style>
           img:hover {
             -webkit-transform: scaleX(-1);
@@ -51,17 +50,12 @@
    text-align: center;
 }
           </style>
-       
-    </head>
-     
-     
-     
 
-      <img src="Self(AvatarOne).jpg" style="width: 250px; height: 225px;border-radius: 50%; float: right;" alt="avatar">
-      <img src="Suit(AvatarTwo).JPG" style="width: 250px; height: 225px;border-radius: 50%; float: left;" alt="avatar">
-        <body>
+      <img src="images/Self(AvatarOne).jpg" style="width: 250px; height: 225px;border-radius: 50%; float: right;" alt="avatar">
+      <img src="images/Suit(AvatarTwo).JPG" style="width: 250px; height: 225px;border-radius: 50%; float: left;" alt="avatar">
+        <body background="images/Elephant.jpg"></body>>
           <div class="logo">
-            <img src="JoshuaTree(LogoArea).jpg" alt="Tree" width="400" height="300">
+            <img src="images/JoshuaTree(LogoArea).jpg" alt="Tree" width="400" height="300">
             <div class="col-md-3">
                 <h2>Fish for the answers</h2>
                 </div>
@@ -81,13 +75,13 @@
             <p>I enjoy solving your problems</p>
             
             <audio controls>
-                <source src="MK.mp3" type="audio/mp3">
+                <source src="music/TLTLM.mp3" type="audio/mp3">
                   
           
               </audio>
             
             <div class="footer">
-              <p>find me on <a href="https://www.facebook.com/parker.flynn.47"><img src="FaceBookLogo.jfif" alt= "Facebook" height="42" width="42" > </a> </p>
+              <p>find me on <a href="https://www.facebook.com/parker.flynn.47"><img src="images/FaceBookLogo.jfif" alt= "Facebook" height="42" width="42" > </a> </p>
             </div>
               
         <body>

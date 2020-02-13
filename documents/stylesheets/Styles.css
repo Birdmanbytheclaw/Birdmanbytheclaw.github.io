@@ -1,5 +1,5 @@
 body{
-    background-image: url(nightSky.jpg);
+    
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,18 +83,6 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
-}
-h1 {
-  color: white;
-}
-h2{
-  color: azure;
-}
-h3 {
-  color: white;
-}
-h4 {
-  color: aliceblue;
 }
 .hitme{align-self: center;}
 /* Style the tab buttons */

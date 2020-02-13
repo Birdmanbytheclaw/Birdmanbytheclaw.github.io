@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact</title>
+<title>Contact</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="stylesheets/Styles2.css" type="text/css" rel="stylesheet">
 <div id="Home" class="tabcontent">
   <h1>Home</h1>
   <p>The Place to see the logo</p>
@@ -24,50 +25,14 @@
   <p>A few of my GitHub repositories.</p>
 </div>
 
-<button class="tablink" onclick="openCity('Home', this, 'red')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openCity('About Me', this, 'green')">About Me</button>
-<button class="tablink" onclick="openCity('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openCity('Projects', this, 'orange')">projects</button>
-<style>
-    
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
+  <a href="index.html"><button class="tablink" onclick="openCity('Home', this, 'red')">Home</button></a>
+  <a href="aboutme.html"><button class="tablink" onclick="openCity('About Me', this, 'green')">About Me</button></a>
+  <a href="contact.html"><button class="tablink" onclick="openCity('Contact', this, 'blue')" id="defaultOpen">Contact</button></a>
+  <a href="Projects.html"><button class="tablink" onclick="openCity('Projects', this, 'orange')">Projects</button></a>
 </head>
-<link href= "Styles2.css" type="text/css" rel="stylesheet">
+
  
-<body>
+<body background="images/Night.jpg">
 
 <h3>Contact Form</h3>
 
@@ -93,10 +58,8 @@ input[type=submit]:hover {
   </form>
 </div>
 <audio controls>
-    <source src="BOBSM.wav" type="audio/wav">
-      
-
-  </audio>
+    <source src="music/BOBSM.wav" type="audio/wav">
+      </audio>
 
 
 </body>
