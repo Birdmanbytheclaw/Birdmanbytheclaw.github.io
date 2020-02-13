@@ -9,6 +9,31 @@
       <link href= "Styles.css" type="text/css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+      <div id="Home" class="tabcontent">
+        <h1>Home</h1>
+        <p>The Place to see the logo</p>
+      </div>
+      
+      <div id="About Me" class="tabcontent">
+        <h1>About Me</h1>
+        <p>A sense of who I am.</p>
+      </div>
+      
+      <div id="Contact" class="tabcontent">
+        <h1>Contact</h1>
+        <p>Fill put the form and let me know what you would need.</p>
+      </div>
+      
+      <div id="Projects" class="tabcontent">
+        <h1>Projects</h1>
+        <p>A few of my GitHub repositories.</p>
+      </div>
+      
+      <button class="tablink" onclick="openCity('Home', this, 'red')" id="defaultOpen">Home</button>
+      <button class="tablink" onclick="openCity('About Me', this, 'green')">About Me</button>
+      <button class="tablink" onclick="openCity('Contact', this, 'blue')">Contact</button>
+      <button class="tablink" onclick="openCity('Projects', this, 'orange')">projects</button>
+
       <style>
           img:hover {
             -webkit-transform: scaleX(-1);
