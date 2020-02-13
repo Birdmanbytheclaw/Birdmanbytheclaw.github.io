@@ -37,7 +37,7 @@ body{
       float: right;
       }
     p{
-      color: azure;
+      color: orangered;
     }
 
 h1{
@@ -45,11 +45,11 @@ h1{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
-  color: aliceblue;
+  color: orangered;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h3{
-  color: aquamarine;
+  color: orangered;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h4{
@@ -57,7 +57,8 @@ h4{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h5{
-  color: aqua;
+  color: aliceblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: right;
 }
 
